@@ -1,6 +1,6 @@
 package main
 
-import "apikity/app"
+import "apikitty/app"
 
 const version = "1.0.0"
 
