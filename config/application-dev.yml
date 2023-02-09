@@ -1,0 +1,24 @@
+server:
+  port: 80
+  shutdown: 10 #shutdown gracefully
+spring:
+  application:
+    name: apikitty
+  datasource:
+    platform: mysql
+    host: 127.0.0.1
+    port: 3306
+    dbname: apikitty
+    username: root
+    password: '123456'
+    min-idle: 10
+    max-active: 10
+    max-wait: 3600
+    show-sql: true  #show sql
+  redis:
+    model: 'single'
+    addrs: '127.0.0.1:6379'
+    password: ''
+    database: 0
+    min-idle: 10
+    max-active: 10
